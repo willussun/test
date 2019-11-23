@@ -13,5 +13,6 @@ public class EurekaServiceApplication {
         System.out.println("This is for test");
 		SpringApplication.run(EurekaServiceApplication.class, args);
 	}
+	System.out.println("This is for test");
 
 }
