@@ -8,11 +8,11 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @EnableEurekaServer
 public class EurekaServiceApplication {
 
-	public static void main(String[] args)
-    {
+	public static void main(String[] args) {
         System.out.println("This is for test");
-		SpringApplication.run(EurekaServiceApplication.class, args);
-	}
-	System.out.println("This is for test");
+        SpringApplication.run(EurekaServiceApplication.class, args);
+        System.out.println("This is for test");
+        System.out.println("This is for test");
+    }
 
 }
